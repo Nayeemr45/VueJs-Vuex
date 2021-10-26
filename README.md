@@ -1,24 +1,6 @@
-# vue_app
+# VueJs and Vuex(State Management)
 
-## Project setup
+## About
 ```
-npm install
+Simple VueJs App with Vuex
 ```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

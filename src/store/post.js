@@ -1,12 +1,7 @@
 import axios from "axios";
 
 const state = {
-  posts: [
-    // { id: "1", title: "post", body: "sample" },
-    // { id: "2", title: "post", body: "sample" },
-    // { id: "3", title: "post", body: "sample" },
-    // { id: "4", title: "post", body: "sample" },
-  ],
+  posts: [],
   post: {},
 };
 const getters = {

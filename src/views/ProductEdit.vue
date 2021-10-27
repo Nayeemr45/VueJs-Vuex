@@ -69,7 +69,6 @@ export default {
   methods: {
     ...mapActions(["getProduct", "editProduct"]),
     Submit() {
-      console.log(this.product);
       this.editProduct(this.product);
     },
   },

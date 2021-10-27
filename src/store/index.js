@@ -2,10 +2,11 @@ import Vue from "vue";
 import Vuex from "vuex";
 import post from "./post";
 import product from "./product";
+import user from "./user";
 Vue.use(Vuex);
 
 export const store = new Vuex.Store({
-  modules: { post, product },
+  modules: { post, product, user },
   state: {
     products: [
       { id: "1", name: "Laptop", price: 200 },

@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 ul {
   display: grid;
   justify-content: center;

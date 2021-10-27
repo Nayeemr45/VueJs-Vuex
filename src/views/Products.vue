@@ -38,4 +38,25 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+ul {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  list-style: none;
+  padding: 0;
+}
+li {
+  display: grid;
+  background: #4bce7f;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+h3 {
+  color: rgb(28, 64, 43);
+}
+li a {
+  text-decoration: none;
+}
+</style>
